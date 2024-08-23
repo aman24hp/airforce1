@@ -1,0 +1,22 @@
+#background {
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom, #000000, #353535);
+}
+.archivo {
+font-family: "Archivo Black", sans-serif;
+font-weight: 400;
+font-style: italic;
+color: aliceblue;
+Font-size: 5vw;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000*/
+
+.nunito {
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 3vw;
+font-style: normal;
+color: aliceblue;
+}
