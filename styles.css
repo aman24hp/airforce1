@@ -20,3 +20,16 @@ font-size: 3vw;
 font-style: normal;
 color: aliceblue;
 }
+
+.img{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start; 
+    height: 100vh; 
+    padding: 10px;
+}
+#img{
+    width: 800px;
+    height: auto;
+    margin-top: -600px;
+}
