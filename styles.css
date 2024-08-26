@@ -1,10 +1,8 @@
-#background {
+#background{
     height: 100vh;
-    width: 100vw;
     background: linear-gradient(to bottom, #000000, #353535);
-    position: fixed;
-    z-index: 1;
 }
+
 .archivo {
 font-family: "Archivo Black", sans-serif;
 font-weight: 400;
@@ -14,6 +12,7 @@ Font-size: 5vw;
 position: absolute;
 top: 100px;
 left: 250px;
+
 }
 
 .nunito {
@@ -26,6 +25,7 @@ color: aliceblue;
 position: absolute;
 top: 220px;
 left: 250px;
+
 }
 
 p{
@@ -36,6 +36,7 @@ p{
     position: absolute;
     top: 310px;
     left: 250px;
+    
 }
 
 .img{
@@ -48,15 +49,16 @@ p{
     top: 600px;
     left: 750px;
 }
+    
 
 #img{
     width: 800px;
     height: auto;
     margin-top: -600px;
+    
 }
 
 .nikelogo{
-    position: fixed;
     top: 0;
     height: 100%;
     color: black;
@@ -65,18 +67,19 @@ p{
     text-align: center;
     font-family: "nunito", sans-serif;
     font-weight: bold;
-    padding: 50px;
+    padding: 18px;
     letter-spacing: 20px;
     word-spacing: 20px;
+    position: fixed;
 }
 
 .mainlogo{
-    position:fixed;
+    
     z-index: 1000;
     width: 100px;
     height: auto;
     margin-left: 11px;
-    margin-top: -20px;
+    margin-top: -60px;
 }
 
 .navbar{
@@ -130,18 +133,6 @@ button{
     margin-right: 65px;
 }
 
-li:hover{
-    transform: scale(1.1);
-}
-
-li button:hover{
-    transform: scale(1.1);
-}
-
-button:hover{
-    transform: scale(1.1);
-}
-
 .addtobag{
     position: absolute;
     left: 250px;
@@ -153,7 +144,8 @@ button:hover{
     padding: 0px 10px;
     font-size:xx-small;
     border-radius: 20px;
-    border: 1px solid #000000
+    border: 1px solid #000000;
+    
 }
 
 .price{
@@ -164,7 +156,23 @@ button:hover{
     font-weight:650;
     font-style: italic;
     color: white;
+    transition: transform 0.3s ease;
+}
 
+.price:hover{
+transform: scale(1.1);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+li button:hover{
+    transform: scale(1.1);
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 
